@@ -43,15 +43,15 @@ handler.all = async function (m, { isBlocked }) {
 ┗━ꕥ
 ┏━━━ꕥ〔 *BELI/SEWA BOT* 〕ꕥ━⬣
 ┃✾ *1 Bulan :* Rp 15000
-┃✾ *Permanen :* Rp 30000
+┃✾ *2 Bulan :* Rp 30000
 ┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :* https://youtu.be/gk7euEW1vis 
+┃✾ *github saya :*  https://github.com/Amrozi888
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 0882-7926-8363
-┃✾ *Gopay :* Masih Lewat Qr
-┃✾ *Ovo :* Masih Lewat Qr
-┃✾ *Pulsa :* Masih Belum Bisa 
+┃✾ *Dana :* 085828764046
+┃✾ *Gopay :* 085828764046
+┃✾ *paket internet :* IM3
+┃✾ *Pulsa :* 085828764046 
 ┗━ꕥ`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
 }
     // salam
@@ -95,7 +95,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${namabot} by ${namalu}`).catch(_ => _)
+        await this.setStatus(`Im zifabotz🤖 ||⏰Aktif selama ${uptime} | 📳Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : '🔮Publik'} | ${namabot} by ${namalu}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
