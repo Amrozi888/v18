@@ -627,7 +627,7 @@ END:VCARD
 `.trim()
     }]
   }, MessageType.contactsArray, { quoted: m })
-m.reply('Ada Perlu apa kak nyari Owner??')
+m.reply(' *Tuh WhatsApp owner gw!! Btw ngapain cari owner Tod🗿?* ')
 let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/ownerku.mp3`)
 json = await res.buffer()
      await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
